@@ -1,0 +1,419 @@
+*{
+    margin: 0%;
+    padding: 0%;
+  }
+  
+  :root{
+  --Pink:hsl(322, 100%, 66%);
+  --VeryPaleCyan: hsl(193, 100%, 96%);
+  --VeryDarkCyan: hsl(192, 100%, 9%);
+  --GrayishBlue: hsl(208, 11%, 55%);
+  }
+  body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  header{
+    @media only screen and (max-width:900px) and (min-width: 320px){
+height: 900px;
+    }
+    background-image: url(../images/bg-hero-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 100%;
+    display: flex;
+  background-color:var(--VeryPaleCyan);
+
+  .headerwrapper{
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+
+
+    .logowrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        @media only screen and (max-width:900px) and (min-width: 320px){
+          width: 90%;
+          margin: auto;
+          margin-right: 200px;
+          display: flex;align-items: center;
+          justify-content: space-between;
+        }
+        .buttonHeader button{
+            width: 200px;
+            height: 50px;
+            border-radius: 50px;
+            border: none;
+            background-color: #fff;
+            color: #000;
+            text-transform: capitalize;
+            font-size: 15px;
+            box-shadow: 0px 0px 10px 3px#eee;
+
+            @media only screen and (max-width:900px) and (min-width: 320px){
+              width: 150px;
+              margin-left: 50px;
+            }
+            }
+            
+      }
+      
+      
+      
+      .community{
+        margin-top: 100px;
+        display: flex;
+      justify-content: space-between;
+      flex: 1;
+
+      @media only screen and (max-width:900px) and (min-width: 320px){
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: -40px;
+      }
+      .build{
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        @media only screen and (max-width:900px) and (min-width: 320px){
+          width: 100%;
+        }
+     h2{
+            font-size: 35px;
+            margin-top: 100px;
+          }
+          
+     p{
+            margin-top: 30px;
+            font-size: 13px;
+          }
+      }
+      .buttoncommunity{
+
+        @media only screen and (max-width:900px) and (min-width: 320px){
+          display: flex;  
+          justify-content: center;
+        align-items: center;
+        }
+      }
+      .buttoncommunity button{
+        margin-top: 50px;
+        width: 250px;
+      height: 50px;
+      border-radius: 50px;
+      border: none;
+      background-color: var(--Pink);
+      color: #fff;
+      text-transform: capitalize;
+      font-size: 15px;
+      
+      }
+      
+      .picture{
+      width: 65%;
+      @media only screen and (max-width:900px) and (min-width: 320px){
+        width: 100%;
+        margin: auto;
+      }
+      
+      }
+      .picture img{
+        width: 80%;
+        
+        
+        @media only screen and (max-width:900px) and (min-width: 320px){
+          width: 100%;
+          margin-top: 50px;
+        }
+
+
+      }
+    }
+      
+  }
+  }
+  
+  
+  main{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 150px;
+
+    @media only screen and (max-width:900px) and (min-width: 320px){
+      margin-bottom: 70px;
+    }
+      
+      section{
+        margin-top: 50px !important;
+        display: flex;
+        width: 90%;
+        margin: auto;
+        border-radius: 30px;
+        box-shadow: 0px 0px 10px 3px#eee;
+        height: 450px !important;
+        align-items: center;
+        justify-content: space-around;
+        flex: 1;
+
+        @media only screen and (max-width:900px) and (min-width: 320px){
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+        }
+
+        
+.pix{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+ .pix img{
+            width: 70%;
+           
+            @media only screen and (max-width:900px) and (min-width: 320px){
+              width: 90%;
+            }
+          }
+.text{
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            margin: auto;
+            margin-right: 40px;
+            @media only screen and (max-width:900px) and (min-width: 320px){
+              width: 100%;
+              align-items: center;
+              justify-content: center;
+            }
+
+            h3{
+                font-size: 30px;
+              }
+               p{
+                margin-top: 30px;
+                font-size: 18px;
+                color: rgb(179, 174, 174);
+
+                @media only screen and (max-width:900px) and (min-width: 320px){
+                  margin-bottom: 50px;
+                  margin-left: 20px;
+                }
+              }
+          }
+           
+      } 
+  }
+  
+  footer{
+      background-color: var(--VeryDarkCyan);
+      color: #fff;
+      position: absolute;
+      
+      display: flex;
+      flex-direction: column;
+      margin-top: 150px;
+
+      @media only screen and (max-width:900px) and (min-width: 320px){
+        width: 100%;
+      }
+      .fone{
+          width: 50%;
+          margin: auto;
+          background-color: #fff;
+          position: relative;
+          height: 250px;
+          margin-left: 400px;
+          top: -100px;
+          bottom: 60;
+          border-radius: 10px;
+          box-shadow: 0px 0px 7px 2px#eee;
+
+          @media only screen and (max-width:900px) and (min-width: 320px){
+            width: 95%;
+            margin: auto;
+            
+          }
+
+          .fonewrapper{
+              width: 80%;
+              margin: auto;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              @media only screen and (max-width:900px) and (min-width: 320px){
+                width: 100%;
+                margin: auto;
+                display: flex;
+                justify-content: center;
+              }
+
+              h2{
+                  color: var(--VeryDarkCyan);
+                  margin-top: 30px;
+                  font-size: 35px;
+                  @media only screen and (max-width:900px) and (min-width: 320px){
+                    font-size: 35px;
+                  width: 95%;
+                  margin-top: 30px;
+                  margin: auto;
+                  }
+              }
+
+              .fonebutton button{
+                margin-top: 50px;
+                width: 300px;
+              height: 60px;
+              border-radius: 50px;
+              border: none;
+              background-color: var(--Pink);
+              color: #fff;
+              text-transform: capitalize;
+              font-size: 15px;
+              }
+          }
+          
+      }
+
+      .ftwo{
+          display: flex;
+          flex: 1;
+          justify-content: space-around;
+          width: 90%;
+          margin: auto;
+margin-top: 50px;
+
+@media only screen and (max-width:900px) and (min-width: 320px){
+  display: flex;
+  flex-direction: column;
+}
+
+.footerlogo{
+    
+    width: 30%;
+    @media only screen and (max-width:900px) and (min-width: 320px){
+      width: 90%;
+      margin: auto;
+      margin-left: 50px;
+    }
+    .logo img{
+      fill: #fff !important;
+    }
+.loc{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    img{
+        width: 3%;
+        height: 5%;
+    }
+    p{
+        margin-left: 15px;
+        font-weight: normal;
+        font-size: 18px;
+    }
+}
+
+.contact{
+
+    .phone{
+        display: flex;
+        margin-top: 20px;
+
+        p{
+            margin-left: 15px;
+            margin-top: 10px;
+        }
+        img{
+            width: 5%;
+            height: 3%;
+            margin-top: 10px;
+        }
+    }
+}
+
+}
+
+.link{
+ul{
+    list-style: none;
+    
+}
+li{
+  margin-top: 30px !important;
+  @media only screen and (max-width:900px) and (min-width: 320px){
+    margin-left: 50px;
+  }
+}
+a{
+color: #fff;
+font-size: 19px;
+text-transform: capitalize;
+text-decoration: none;
+margin-top: 30px !important;
+font-weight: normal;
+
+&:hover{
+  color: hsl(208, 11%, 55%);
+}
+
+}
+
+}
+
+
+.social{
+  p{
+    margin-top: 150px;
+    font-size: 15px;
+  }
+
+
+  svg.svg-inline--fa.fa-facebook,
+  svg.svg-inline--fa.fa-twitter,
+  svg.svg-inline--fa.fa-instagram{
+   font-size: 50px;
+  margin-left: 40px;
+
+@media only screen and (max-width:900px) and (min-width: 320px){
+  margin-left: 40px;
+  margin-top: 150px;
+}
+  }
+
+  p{
+    @media only screen and (max-width:900px) and (min-width: 320px){
+      margin-left: 50px;
+    }
+  }
+}
+      }
+
+      .fthree{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-bottom: 20px;
+          margin-top: 20px;
+
+          p{
+           font-size: 15px; 
+           text-transform: capitalize;
+           color: cyan;
+            text-transform: capitalize;
+            
+            @media only screen and (max-width:900px) and (min-width: 320px){
+              font-size: 12px;
+            }
+          }
+          
+      }
+  }
